@@ -1,8 +1,9 @@
 #!/bin/bash
 # to be used with LOFAR correlator @ trunk r19117
 
-if [ $# -lt 2 ]; then
+if [ $# -lt 1 ]; then
 	parset=`pwd`/AARTFAAC.parset;
+	echo "---- Using Default parset file AARTFAAC.parset!!!  ----"
 else
     parset=$1;
 fi;
@@ -10,19 +11,28 @@ fi;
 # Find out the number of reserved nodes available
 line=(`preserve -llist | egrep 'pprasad.*node'`) 
 numnodes=${line[7]};
-nodelist=`echo ${line[@]} | awk '{for(i=9;i<22;i++) printf ("%s,",$i); print $23}'`
-echo "Found $numnodes nodes reserved..."
+endfield=`expr $numnodes + 8`;
+nodelist=(`echo ${line[@]} | awk -v ef=$endfield '{for(i=9;i<=ef;i++) { if (match($i,"gpu") == 0) { if (i==ef) printf ("%s",$i); else printf ("%s,", $i);}}}'`);
+
+# Stupid, but repeating this just to get the number of actual nodes.
+# newnumnodes=(`echo ${line[@]} | awk -v ef=$endfield '{j=1;for(i=9;i<=ef;i++) { if (match($i,"gpu") == 0) {j++; printf("%d\n", $j)} else printf("%d\n", $j);} printf ("%d",$j);}'`);
+
+echo "New number of nodes: $newnumnodes"
+echo "Found $numnodes reserved nodes..., $endfield"
+echo "Nodelist: $nodelist"
 echo "Adjusting parset file $parset"
 cp $parset $parset.$numnodes
 numnodesless1=`expr $numnodes - 1`;
 sed 's/OLAP.CNProc.phaseOneTwoCores.*/OLAP.CNProc.phaseOneTwoCores     = [0..'$numnodesless1']/g' $parset > $parset.$numnodes
 
-#ssh r815 rm -rf ion-cn-* ion-storage-* # /var/scratch/romein/AARTFAAC-21-09-2011/SB*.MS
-#ssh r815 killall ION_Processing
-#ssh r815 mpirun -mca opal_set_max_sys_limits 1 -x TZ=/usr/share/zoneinfo/UTC -x NR_PSETS=288 -x PSET_SIZE=14 -x CN_STREAM_TYPE=TCPKEY -H r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815 /var/scratch/swinbank/correlator/bin/ION_Processing &
-#ssh fs5 mpirun -mca opal_set_max_sys_limits 1 -x TZ=/usr/share/zoneinfo/UTC -x NR_PSETS=288 -x PSET_SIZE=$numnodes -x CN_STREAM_TYPE=TCPKEY -H $nodelist /var/scratch/swinbank/correlator/bin/CN_Processing &
-#echo parset $parsetfile |/home/romein/bin.x86_64/udp-copy - tcp:r815:3999
-#echo quit|/home/romein/bin.x86_64/udp-copy - tcp:r815:3999
-#wait
-#rm -f ion-cn-* ion-storage-*
+echo $nodelist
+
+ssh r815 rm -rf ion-cn-* ion-storage-* # /var/scratch/romein/AARTFAAC-21-09-2011/SB*.MS
+ssh r815 killall ION_Processing
+ssh r815 mpirun -mca opal_set_max_sys_limits 1 -x TZ=/usr/share/zoneinfo/UTC -x NR_PSETS=288 -x PSET_SIZE=$numnodes -x CN_STREAM_TYPE=TCPKEY -H r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815,r815 /var/scratch/swinbank/correlator/bin/ION_Processing &
+ssh fs5 mpirun -mca opal_set_max_sys_limits 1 -x TZ=/usr/share/zoneinfo/UTC -x NR_PSETS=288 -x PSET_SIZE=$numnodes -x CN_STREAM_TYPE=TCPKEY -H $nodelist /var/scratch/swinbank/correlator/bin/CN_Processing &
+echo parset $parset.$numnodes |/home/romein/bin.x86_64/udp-copy - tcp:r815:3999
+echo quit|/home/romein/bin.x86_64/udp-copy - tcp:r815:3999
+wait
+rm -f ion-cn-* ion-storage-*
 ##for i in /tmp/SB*/table.f0data;do ~/projects/LOFAR/patch_seqno $i 131072;done

@@ -20,7 +20,8 @@ typedef struct {
 
 typedef struct {
    HdrType header;
-   // 8bit, 2 subband recording. 16 samples/frame, byte complex, 2 pol, 12 
+   // 8bit, 2 subband recording. 16 time samples/frame, byte complex, 2 pol, 
+   // 12 dipoles worth 
    char payload[24][16][2][2]; 
 } InPktType;
 
@@ -52,6 +53,15 @@ int main (int argc, char **argv)
   char ipport[128] = {0,};
   char tcpsrc[32] = "10.142.5.94", tcpdest[32] = "10.141.5.23"; 
   
+  // Write out per dipole data to file
+  #if 1 // def DEBUG
+  FILE *fout[NELEM] = {NULL,};
+  for (i=0; i<NELEM; i++)
+  { sprintf(testdat, "%03d.dip", i);
+    if ((fout[i]=fopen(testdat, "wb")) == NULL)
+     perror ("fopen");
+  }
+  #endif
 
   if (argc < 2) {usage(argv[0]); exit (-1);}
   
@@ -90,7 +100,7 @@ int main (int argc, char **argv)
   if (i<NELEM) { fprintf (stderr, "calloc problem!\n"); exit (-1);}
 
   // For each RSP file, do till end of file:
-  for (j-0; j<100000; j++)
+  for (j=0; j<1; j++)
   for (fil=0; fil<NRSP; fil++)
   { if (fread (&inpkt, 1, sizeof (InPktType), frsp[fil]) < sizeof(InPktType))
 	{ perror ("fread"); }
@@ -105,25 +115,27 @@ int main (int argc, char **argv)
   
   	strncpy (substr, strstr(argv[fil+1], "RSP"), 4); substr[4] = 0;
       rsp = atoi (substr+3);
-  	#if 1 // # DEBUG
+  	#if 0 // # DEBUG
   	fprintf (stderr, "Working on station %d, RSP %d. Dip = %d, stream = %d\n",
                station, rsp, (station-2)*48, rsp*12); 
   	
   	#endif 
 
 	// 12 dipole's data within an RSP board packet
-	for (dip=(station-2)*48 + rsp*12,stream_nr=rsp*12; stream_nr<rsp*12+12; stream_nr++, dip++)
+	for (dip=(station-2)*48 + rsp*12,stream_nr=0; stream_nr<12; stream_nr++, dip++)
     { 
 
-    #ifdef DEBUG
-	  sprintf (testdat, "Working on station %d, RSP %d. Dip = %d, stream = %d\n",
+    #if 1 //def DEBUG
+	  fprintf (stderr, "Working on station %d, RSP %d. Dip = %d, stream = %d\n",
              station, rsp, dip, stream_nr); 
-	  fprintf (stderr, "Writing data: %s", testdat);
-	  if (write (sk_out[dip], testdat, strlen(testdat)) < strlen(testdat))
- 	  { perror ("write"); }
+	  // fprintf (stderr, "Writing data: %s", testdat);
+	  //if (write (sk_out[dip], testdat, strlen(testdat)) < strlen(testdat))
+ 	  // { perror ("write"); }
 	#endif
 
 	  // Split into per dipole structures, fill dedicated buffer
+	  memcpy ((void*)&(outpkt[dip]->header), (void*)(&inpkt.header), 
+			  sizeof (HdrType));
       for (i=0; i< 1 * 16 * 2 * 2; i++) 
       { char value = inpkt.payload[2*stream_nr][0][0][i]; // Subband 1
   
@@ -139,7 +151,8 @@ int main (int argc, char **argv)
   
         outpkt[dip]->payload[1][0][0][i] = value;
       }
-	  if (write (sk_out[dip], outpkt, sizeof (outpkt)) < sizeof (outpkt))
+      fwrite (outpkt[dip], 1, sizeof (OutPktType), fout[dip]); 
+	  if (write (sk_out[dip], outpkt[dip], sizeof (OutPktType)) < sizeof (OutPktType))
 	  { perror ("write"); }
 	  else pktcnt++;
     }

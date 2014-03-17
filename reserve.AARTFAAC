@@ -1,7 +1,7 @@
 #!/bin/bash
 
-preserve -native "-l fat -q *@r815" -# 1 -t 14:00:00
-preserve -# 15 -t 14:00:00
+preserve -native "-l fat -q *@r815" -# 1 -t 70:00:00
+preserve -# 15 -t 70:00:00
 
 preserve -long-list
 

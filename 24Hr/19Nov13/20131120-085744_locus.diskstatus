@@ -1,0 +1,2798 @@
+************************* locus *************************
+--------- locus001 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  1.1G  1.6G  42% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   49M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.1G  6.0G  15% /var
+/dev/sda10             20T   19T  1.9T  91% /data
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus002 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   38M  1.8G   3% /tmp
+/dev/sda9             7.4G  908M  6.1G  13% /var
+/dev/sda10             20T   20T  871G  96% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus003 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   47M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   19T  2.0T  91% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus004 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   90M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   14T  6.1T  70% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus005 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   89M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   18T  2.2T  90% /data
+/dev/sda9             7.4G  1.1G  6.0G  16% /var
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus006 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   49M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  5.0T  76% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus007 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   15T  5.2T  75% /data
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus008 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  774M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   49M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  4.3T  79% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus009 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   78M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   17T  4.0T  81% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus010 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   88K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda10             20T   15T  5.0T  76% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus011 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   48M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda10             20T   18T  2.6T  88% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus012 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   14T  6.6T  68% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus013 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   88K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   40M  1.8G   3% /tmp
+/dev/sda9             7.4G 1009M  6.0G  15% /var
+/dev/sda10             20T   16T  5.0T  76% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus014 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   86M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda10             20T   16T  4.4T  79% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus015 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   18T  2.0T  91% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus016 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  4.6T  78% /data
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus017 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   40M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   13T  7.9T  61% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus018 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda10             20T   14T  6.3T  69% /data
+/dev/sda8             1.9G   51M  1.8G   3% /tmp
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus019 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   17T  4.0T  81% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus020 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  4.6T  78% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus021 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   19T  1.7T  92% /data
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus022 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  770M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G   16K   32G   1% /dev/shm
+none                   32G   88K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   55M  1.7G   4% /tmp
+/dev/sda9             7.4G  1.1G  6.0G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   18T  2.9T  86% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus023 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   15T  6.0T  71% /data
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus024 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  928M  6.1G  13% /var
+/dev/sda8             1.9G   38M  1.8G   3% /tmp
+/dev/sda10             20T   19T  1.6T  93% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus025 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   77M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   17T  3.8T  82% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus026 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda10             20T   14T  6.1T  70% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus027 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   48M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   15T  5.7T  72% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus028 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   76M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   15T  5.7T  72% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus029 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   47M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   14T  6.1T  70% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus030 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  216K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.2G  5.9G  17% /var
+/dev/sda10             20T   18T  2.7T  87% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus031 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  6.0G  16% /var
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+/dev/sda10             20T   18T  2.6T  88% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus032 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   45M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda10             20T   18T  3.0T  86% /data
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus033 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  772M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   40M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.1G  6.0G  15% /var
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   19T  2.0T  91% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus034 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  6.0G  16% /var
+/dev/sda10             20T   14T  6.7T  67% /data
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus035 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  184K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   50M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda10             20T   14T  7.0T  66% /data
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus036 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  4.8T  77% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus037 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   43M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   14T  6.8T  67% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus038 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  838M  1.9G  32% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   80M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   15T  5.1T  75% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus039 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   47M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  17% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  4.4T  79% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus040 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   75M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.2G  5.9G  17% /var
+/dev/sda10             20T   17T  3.7T  82% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus041 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   78M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   16T  4.0T  81% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus042 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  4.3T  79% /data
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus043 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   14T  6.7T  67% /data
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus044 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  768M  1.9G  29% /
+none                   32G  228K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   36M  1.8G   2% /tmp
+/dev/sda9             7.4G  426M  6.6G   6% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.8G  27% /usr
+/dev/sda10             20T   14T  6.9T  66% /data
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+--------- locus045 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   44M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  6.0G  16% /var
+/dev/sda10             20T   19T  1.6T  93% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus046 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   14T  6.3T  69% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus047 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   16T  4.4T  79% /data
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus048 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   76M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.1G  6.0G  16% /var
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   18T  2.8T  87% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus049 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   45M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   16T  4.9T  76% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus050 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+/dev/sda10             20T   15T  5.9T  71% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus051 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   73M  1.7G   5% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  17% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   17T  3.1T  85% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus052 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   49M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   15T  5.8T  72% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus053 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   44M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda10             20T   17T  3.6T  83% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus054 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   49M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  17% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   17T  3.1T  85% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus055 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   17T  3.7T  82% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus056 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda10             20T   16T  4.6T  78% /data
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus057 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   47M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  4.8T  77% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus058 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   51M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   13T  7.1T  65% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus059 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   92K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.2G  5.8G  18% /var
+/dev/sda10             20T   18T  2.7T  87% /data
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   40M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus060 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   15T  5.8T  72% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus061 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   73M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda10             20T   16T  4.1T  80% /data
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus062 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   88M  1.7G   5% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   17T  3.6T  83% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus063 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+/dev/sda10             20T   16T  4.7T  77% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus064 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+/dev/sda10             20T   17T  3.3T  84% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus065 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  768M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   88K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   51M  1.8G   3% /tmp
+/dev/sda9             7.4G  812M  6.2G  12% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   11T  9.3T  54% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus066 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   15T  5.1T  75% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus067 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   49M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   17T  4.0T  81% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus068 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   81M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda10             20T   15T  5.3T  74% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus069 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  212K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   99M  1.7G   6% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   15T  5.1T  75% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus070 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   76M  1.7G   5% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   14T  6.1T  70% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus071 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  228K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   88K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  17% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   13T  7.0T  66% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus072 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   15T  5.9T  71% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus073 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   96M  1.7G   6% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  4.3T  79% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus074 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   18T  2.5T  88% /data
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus075 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   18T  2.8T  86% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus076 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+/dev/sda10             20T   16T  4.4T  79% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus077 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+/dev/sda10             20T   15T  5.6T  73% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus078 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   18T  2.6T  88% /data
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus079 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   81M  1.7G   5% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   17T  3.1T  85% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus080 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   84M  1.7G   5% /tmp
+/dev/sda9             7.4G  1.1G  6.0G  16% /var
+/dev/sda10             20T   19T  2.0T  91% /data
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus081 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  17% /var
+/dev/sda10             20T   18T  2.9T  86% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus082 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   14T  6.5T  68% /data
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus083 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   38M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  961M  6.1G  14% /var
+/dev/sda10             20T   20T  608G  98% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus084 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  228K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.2G  5.9G  17% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   18T  2.1T  90% /data
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus085 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   86M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   16T  4.7T  77% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus086 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  6.0G  16% /var
+/dev/sda10             20T   14T  6.2T  70% /data
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus087 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G  121M  1.7G   7% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  4.5T  78% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus088 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   96M  1.7G   6% /tmp
+/dev/sda1             1.9G  2.9M  1.8G   1% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   17T  3.4T  84% /data
+/dev/sda9             7.4G  1.1G  6.0G  16% /var
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus089 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   41M  1.8G   3% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda9             7.4G  1.1G  6.0G  16% /var
+/dev/sda10             20T   17T  3.4T  84% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus090 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  208K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda9             7.4G  1.1G  6.0G  15% /var
+/dev/sda8             1.9G   90M  1.7G   5% /tmp
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda10             20T   16T  4.2T  80% /data
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus091 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   40M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.1G  6.0G  15% /var
+/dev/sda10             20T   12T  8.4T  59% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus092 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   92K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   19T  1.2T  95% /data
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   40M  1.8G   3% /tmp
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus093 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda8             1.9G   42M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  17% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   16T  4.8T  77% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus094 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  220K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   84K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda9             7.4G  1.1G  6.0G  15% /var
+/dev/sda10             20T   18T  2.8T  87% /data
+/dev/sda8             1.9G   40M  1.8G   3% /tmp
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus095 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  228K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   80K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   37M  1.8G   3% /tmp
+/dev/sda9             7.4G  3.1G  4.0G  44% /var
+/dev/sda10             20T   20T  451G  98% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus096 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  228K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   80K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   37M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.1G  5.9G  16% /var
+/dev/sda10             20T   18T  2.7T  87% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus097 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  769M  1.9G  29% /
+none                   32G  228K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   80K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   37M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.3G  5.8G  18% /var
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda10             20T   18T  2.3T  89% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus098 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  1.5G  1.3G  55% /
+none                   32G  228K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   80K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda8             1.9G   37M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.3G  5.8G  18% /var
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda10             20T   15T  6.0T  71% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus099 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  863M  1.8G  33% /
+none                   32G  228K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   80K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   36M  1.8G   3% /tmp
+/dev/sda9             7.4G  1.2G  5.9G  17% /var
+/dev/sda10             20T   17T  3.5T  83% /data
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4
+--------- locus100 ---------
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda7             2.8G  770M  1.9G  29% /
+none                   32G  228K   32G   1% /dev
+none                   32G     0   32G   0% /dev/shm
+none                   32G   76K   32G   1% /var/run
+none                   32G     0   32G   0% /var/lock
+none                   32G     0   32G   0% /lib/init/rw
+/dev/sda1             1.9G   35M  1.8G   2% /localopt
+/dev/sda5              12G  2.8G  7.7G  27% /usr
+/dev/sda8             1.9G   37M  1.8G   3% /tmp
+/dev/sda9             7.4G  878M  6.2G  13% /var
+/dev/sda10             20T  7.4T   13T  38% /data
+lse001:/gldata1        89T   75T   11T  88% /staging1
+lse001:/gldata3        90T   56T   31T  65% /staging3
+lcs022.online.lofar:/data/sys/opt/etc
+                       50G   33G   15G  70% /opt/etc
+lcs015.online.lofar:/opt/cep
+                      493G  387G   81G  83% /opt/cep
+lcs015.online.lofar:/cep1home
+                      2.9T  2.0T  821G  71% /cep1home
+lcs015.online.lofar:/cep2home
+                      3.9T  2.6T  1.1T  71% /cep2home
+lcs015.online.lofar:/globalhome
+                      2.0T  974G  895G  53% /globalhome
+lcs015.online.lofar:/globaldata
+                      2.0T  1.4T  481G  75% /globaldata
+lse001:/gldata4        90T   41T   45T  49% /staging4

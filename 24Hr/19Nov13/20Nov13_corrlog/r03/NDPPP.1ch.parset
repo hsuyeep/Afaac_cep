@@ -1,0 +1,11 @@
+# msin = /tmp/nex/SB003_LBA_OUTER_8b2sbr02.MS
+msin = SB002_LBA_OUTER_8b2sbr03_1ch.MS
+msin.starttime = 20Nov2013/15:36:00
+msin.endtime = 20Nov2013/18:36:00
+# msin.startchan = 9 
+# msin.nchan = 40 
+# msout = /tmp/nex/SB003_LBA_OUTER_8b2sbr02_1ch.MS
+msout = SB002_LBA_OUTER_8b2sbr03_1ch_1536-1836.MS
+steps=[]
+#avg.type = squash
+#avg.freqstep = 40

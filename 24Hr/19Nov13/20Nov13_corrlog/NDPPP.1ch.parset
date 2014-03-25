@@ -1,0 +1,11 @@
+# msin = /tmp/nex/SB003_LBA_OUTER_8b2sbr02.MS
+#msin.starttime = 05Jul2012/12:55:58
+#msin.endtime = 05Jul2012/12:56:58
+msin = /var/scratch/pprasad/20Nov13/SB002_LBA_OUTER_8b2sbr01_test_rsp_tcp.MS
+msin.startchan = 9 
+msin.nchan = 40 
+# msout = /tmp/nex/SB003_LBA_OUTER_8b2sbr02_1ch.MS
+msout = /var/scratch/pprasad/20Nov13/SB002_LBA_OUTER_8b2sbr01_test_rsp_tcp_1ch.MS
+steps=[avg]
+avg.type = squash
+avg.freqstep = 40

@@ -22,21 +22,19 @@ import os;
 # tsb0 = table ('SB001_1202-1207.MS');
 
 def main ():
-	if (len(sys.argv) < 2):
-		print 'Usage: ', sys.argv[0], ' filename.MS';
+	if (len(sys.argv) < 4):
+		print 'Usage: ', sys.argv[0], ' filename.MS Starttime(MJD) Endtime(MJD)';
 		sys.exit (-1);
 
 	msfile = sys.argv[1]; 
 	nelem  = 288;        # TODO: Get from MS
 	nblines= nelem*(nelem+1)/2; 
 	nsubs  = 1;         # Number of subbands
+	bufsize = 1000; # In units of seconds.
 	
 	# Create an array for every timeslice from all subbands
 	tobs = numpy.zeros (1, 'd'); # Time of obs, as double
 	acm = numpy.zeros (nsubs*2*nblines, 'f');
-	# TODO: Dont try reading the entire MS into mem! Go in chunks
-	tsb0 = taql ('select DATA from $msfile');
-	ttim0 = taql ('select TIME from $msfile');
 	tab = table (sys.argv[1]); #Need to open table for getting spectral info
 	tab1 = table(tab.getkeyword('SPECTRAL_WINDOW'));
 	nchan = tab1[0]['NUM_CHAN'];
@@ -52,8 +50,12 @@ def main ():
 		print '### Currently handle only 1 channel!';
 		# sys.exit(-1);
 
-	ntimes = tsb0.nrows()/nblines;
+	# TODO: Dont try reading the entire MS into mem! Go in chunks
+	cmd = 'select TIME from $msfile where TIME in {%20.8f, %20.8f}' % (float (sys.argv[2]), float (sys.argv[3]));
+	ttim0 = taql (cmd);
+	ntimes = ttim0.nrows()/nblines;
 	print '---> Ants = ',nelem,' Subbands = ',nsubs,' Times = ', ntimes;
+	print '---> Time range of data: ' + str (ttim0[0]['TIME']) + ' and ' + str(ttim0[-1]['TIME']);
 
 	# tsb1 = taql ('select DATA from SB001_1202-1207.MS');
 	# tsb2 = taql ('select DATA from SB002_1202-1207.MS');
@@ -72,29 +74,38 @@ def main ():
 	
 	i = 0;
 	done = 0;
-	for i in range (0, ntimes):
-		if done == 1:
-			print 'Done: ',i, 'timeslices' ;
-			break;
-	
-	
-		print 'Time:%f Freq:%f' % (ttim0[i*nblines+1]['TIME'],freqobs[0]) ;
-		tobs[0] = ttim0[i*nblines + 1]['TIME'];
-		for j in range (0, nblines): # NOTE: Previously had an off-by-one error! pep/27Apr12
-			try:
-				acm[2*j  ]=tsb0[i*nblines+j]['DATA'][0][0].real;
-				acm[2*j+1]=tsb0[i*nblines+j]['DATA'][0][0].imag;
-				# print 'j:', '%05d' % j, '(','%8.4f' % tsb0[i*nblines+j]['DATA'][0][0].real,',', '%8.4f' % tsb0[i*nblines+j]['DATA'][0][0].imag, ')';
-			except KeyboardInterrupt:
-				print '    ###  Keyboard interrupt...';
-				print '    ### Quit after current timeslice!';
-				print '(i,j)=',i,j;
-				done = 1;
+	for i in range (0, ntimes, bufsize):
+		# Load the data for this subset
+		print '--> Now reading between times %20.8f and %20.8f' % (ttim0[i*nblines]['TIME'], ttim0[(i+bufsize-1)*nblines]['TIME']);
+		cmd = 'select DATA from $msfile where TIME in {%20.8f, %20.8f}' % (ttim0[i*nblines]['TIME'], ttim0[(i+bufsize-1)*nblines]['TIME']);
+		tsb0 = taql (cmd);
+		print 'Read %d rows, %d records' % (tsb0.nrows(), tsb0.nrows()/nblines);
+		nrecs = tsb0.nrows()/nblines; # NOTE that sometimes lesser or more rows 
+		# may be read due to the specification of the time to the TAQL command.
+		for k in range (0, nrecs):
+			if done == 1:
+				print 'Done: ',i, 'timeslices' ;
+				break;
+		
+		
+			print 'Time:%f of %f, Freq:%f' % (ttim0[(i+k)*nblines]['TIME'], ttim0[-1]['TIME'], freqobs[0]) ;
+			tobs[0] = ttim0[(i+k)*nblines]['TIME'];
+			for j in range (0, nblines): # NOTE: Previously had an off-by-one error! pep/27Apr12
+				try:
+					b = tsb0[k*nblines+j]['DATA'];
+					acm[2*j  ]=b[0][0].real;
+					acm[2*j+1]=b[0][0].imag;
+					# print 'j:', '%05d' % j, '(','%8.4f' % tsb0[i*nblines+j]['DATA'][0][0].real,',', '%8.4f' % tsb0[i*nblines+j]['DATA'][0][0].imag, ')';
+				except KeyboardInterrupt:
+					print '    ###  Keyboard interrupt...';
+					print '    ### Quit after current timeslice!';
+					print '(i,j)=',i,j;
+					done = 1;
 
-		tobs.tofile (ffloat);
-		freqobs.tofile(ffloat);
-		acm.tofile  (ffloat);
-		bytes = tobs.nbytes + freqobs.nbytes + acm.nbytes;
+			tobs.tofile (ffloat);
+			freqobs.tofile(ffloat);
+			acm.tofile  (ffloat);
+			bytes = tobs.nbytes + freqobs.nbytes + acm.nbytes;
 	
 	ffloat.close ();
 	return;

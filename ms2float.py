@@ -30,7 +30,7 @@ def main ():
 	nelem  = 288;        # TODO: Get from MS
 	nblines= nelem*(nelem+1)/2; 
 	nsubs  = 1;         # Number of subbands
-	bufsize = 1000; # In units of seconds.
+	bufsize = 100; # In units of seconds.
 	
 	# Create an array for every timeslice from all subbands
 	tobs = numpy.zeros (1, 'd'); # Time of obs, as double

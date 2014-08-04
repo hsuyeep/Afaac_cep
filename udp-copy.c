@@ -88,8 +88,8 @@ void init(int argc, char **argv)
 
   source = argv[arg];
   destination = argv[arg + 1];
-  sk_in  = create_fd(source, 0, &input_proto);
-  sk_out = create_fd(destination, 1, &output_proto);
+  sk_in  = create_fd(source, 0, &input_proto, 0, 0);
+  sk_out = create_fd(destination, 1, &output_proto, 0, 0);
 
   setlinebuf(stdout);
   if_BGP_set_default_affinity();

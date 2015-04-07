@@ -30,7 +30,7 @@ def main ():
 	nelem  = 288;        # TODO: Get from MS
 	nblines= nelem*(nelem+1)/2; 
 	nsubs  = 1;         # Number of subbands
-	bufsize = 100; # In units of seconds.
+	bufsize = 30; # In units of seconds.
 	
 	# Create an array for every timeslice from all subbands
 	tobs = numpy.zeros (1, 'd'); # Time of obs, as double
@@ -64,7 +64,7 @@ def main ():
 	
 	# Output .bin file
 	# fname = '115908_taql.bin';
-	foutname = sys.argv[1].split('.')[0] + '.bin';
+	foutname = sys.argv[1].split('.')[0] + '_YY.bin';
 	print 'Writing to file: ', foutname;
 	if not os.path.isfile (foutname):
 		ffloat = open (foutname, 'wb');
@@ -93,8 +93,12 @@ def main ():
 			for j in range (0, nblines): # NOTE: Previously had an off-by-one error! pep/27Apr12
 				try:
 					b = tsb0[k*nblines+j]['DATA'];
-					acm[2*j  ]=b[0][0].real;
-					acm[2*j+1]=b[0][0].imag;
+					# acm[2*j  ]=b[0][0].real;
+					# acm[2*j+1]=b[0][0].imag;
+
+					#Changed to extract out Y-pols. pep/29Mar15
+					acm[2*j  ]=b[0][3].real;
+					acm[2*j+1]=b[0][3].imag;
 					# print 'j:', '%05d' % j, '(','%8.4f' % tsb0[i*nblines+j]['DATA'][0][0].real,',', '%8.4f' % tsb0[i*nblines+j]['DATA'][0][0].imag, ')';
 				except KeyboardInterrupt:
 					print '    ###  Keyboard interrupt...';
